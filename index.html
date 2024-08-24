@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css"> <!-- Conexão com o CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="corpo">
+    <div id="container">
+        <div id="blocoEntrada">
+            <h1 id="titulo">Encriptador de Texto</h1>
+
+            <!-- Campo de texto para criptografar e descriptografar -->
+            <textarea id="textoEntrada" placeholder="Digite seu texto" rows="4" cols="50"></textarea>
+            <p id="mensagemValidacao" style="color: red; display: none;">Letras maiúsculas e caracteres especiais não são aceitos.</p>
+
+            <div>
+                <button id="botaoCriptografar">Criptografar</button>
+                <button id="botaoDescriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+        <!-- Área para apresentar o texto -->
+        <div id="blocoSaida">
+            <div id="textoSaida" style="margin-top: 60px;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Conexão com o JavaScript -->
+</body>
+</html>
