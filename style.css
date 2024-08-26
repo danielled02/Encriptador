@@ -1,4 +1,4 @@
-/* Define estilos globais para o corpo da página */
+
 #corpo {
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-/* Estiliza o contêiner principal */
+
 #container {
     display: flex;
     justify-content: space-between;
@@ -18,18 +18,15 @@
     gap: 50px; /* Adiciona um espaço fixo entre os blocos */
 }
 
-/* Estiliza os blocos de entrada e saída */
+
 #blocoEntrada, #blocoSaida {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 50%;
-    
-    
+    width: 50%;     
 }
 
-/* Estiliza o título da página */
 #titulo {
     color:#0A3871;
     font-size: 24px;
@@ -37,7 +34,7 @@
     text-align: center;
 }
 
-/* Estiliza o campo de entrada de texto */
+
 #textoEntrada {
     width: 90%;
     height: 50%;
@@ -48,7 +45,7 @@
     font-size: 16px;
 }
 
-/* Estiliza o bloco de saída de texto */
+
 #textoSaida {
     width: 90%;
     height: 50%;
@@ -65,7 +62,7 @@
     text-align: center;
 }
 
-/* Estiliza os botões */
+
 button {
     background-color:#0A3871;
     color: #fff;
@@ -77,12 +74,12 @@ button {
     margin: 5px;
 }
 
-/* Altera a cor do botão ao passar o mouse */
+
 button:hover {
     background-color:#215cc9;
 }
 
-/* Estiliza a mensagem de validação */
+
 #mensagemValidacao {
     color: red;
     margin: 10px 0;
